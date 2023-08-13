@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #f2c166;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    background-color: #BF4904;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.logo img{
+    height: 65px;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+ nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 14px;
+ }
+
+ .tienda{
+    text-align: right;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-right: 0;
+
+}
+ .link{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+    display: inline-block;
+}
+.link:hover{
+    transform: scale(1.1);
+    background-color: #591202;
+ }
+
+
+.subtitulo{
+    text-align: right;
+    padding: 5px;
+    color: white;
+}
+
+h1{
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+    background-color: #591202;
+    display: flex;
+}
+
+h2{
+    color: white;
+    border-bottom: #591202;
+    display: block;
+}
+
+.subtitulo{
+    background-color: yellow;
+}
