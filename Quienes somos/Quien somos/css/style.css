@@ -1,0 +1,52 @@
+*{
+    background-color: #F2C166;
+ padding: 5%;   
+}
+#quienes_somos{
+    background-color:#D98A29;
+    padding: 3%;
+    text-align: center;
+    color: #FFFFFF;
+}
+#somos{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#publico{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3%;
+    background-color: #D98A29;
+}
+#vera{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#contacto{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3%;
+    background-color: #D98A29;
+}
+#contac{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#datos{
+    background-color: #D98A29;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8%;
+    font-size: 20px;
+
+}
+#d{
+    background-color: #D98A29;
+    padding: 0%;
+}
