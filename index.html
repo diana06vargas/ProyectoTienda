@@ -6,27 +6,27 @@
     <link rel="stylesheet" href="./css/styless.css">
     <title>Tienda Online</title>
 </head>
-<body>
-<main>
-    <header>
-        <section class="logo">
-            <img src="../Images/logo.png" id="img_logo">
-        </section>
-        <article class="tienda" id="tienda">
-         <h1>Tienda El Porvenir</h1>
-        </article>
-        <section class="menu">
 
-           <nav>
+<body>
+
+    <header>
+
+        <nav class="logo">
+            <img src="../Images/logo.png" id="img_logo">
+        </nav>
+        <nav class="tienda" id="tienda">
+            <h1>Tienda El Porvenir</h1>
+        </nav>
+           <nav class="menu">
                 <ul>
                     <li><a >Catálogo</a>
                         <ul>
                             <li><a href="./pages/licores.html">Licores</a></li>
                             <li><a href="./pages/frutasyverduras.html">Frutas y Verduras</a></li>
                             <li><a href="./pages/despensa.html">Despensa</a></li>
-                            <li><a href="./pages/despensa.html">Lacteos</a></li>
+                            <li><a href="./pages/lacteos.html">Lacteos</a></li>
                             <li><a href="./pages/limpieza del hogar.html">Limpieza del Hogar</a></li>
-                            <li><a href="#">Congelados</a></li>
+                            <li><a href="./pages/congelados.html">Congelados</a></li>
                         </ul>
                     
                     </li>
@@ -35,12 +35,28 @@
                     <li><a href="#">Login</a></li>
                 </ul>
             </nav>
-        </section>
     </header>
 
-<script src="./js/main.js"></script>
+<main>
+
+<section id="tendencias">
+    <h2>tendencias</h2>
+
+    <article id="items">
+        <section class="uvas">
+        <figure id="fig">
+            <img src="./Images/uva_isabella.png" alt="uvas">
+        </figure>
+        <h3>Uvas Isabella</h3>
+        <p>$3.190</p>
+    </section>
+
+    </article>
+
+</section>
 
 </main>
+
 <footer>
 <section id="info">
     <h2 id="infoo">CONTÁCTANOS</h2>
@@ -55,14 +71,17 @@
         <p>   (+57) 3168823845</p>
     </li>
    </ul>
-</section> <br>
+</section> 
+<br>
 <aside>
     <p>Derechos reservados</p>
-    <p>Creado por: Diana Vargas, David Tenjo y Sergio Ardila</p> <br>
-
+    <p>Creado por: Diana Vargas, David Tenjo y Sergio Ardila</p> 
+    <br>
 </aside>
+
 </footer>
 
+<script src="./js/main.js"></script>
 
 </body>
 </html>
