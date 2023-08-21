@@ -22,27 +22,30 @@ header{
     justify-content: space-between;
     text-decoration: none;
 }
-/*Logo y nombre de la tienda*/
-.logo{
+
+article > h1{
+    padding-right: 10px;
+    padding-left: 50px;
     display: flex;
     align-items: center;
+    color: white;
+    font-family: sans-serif;
 }
+/*Logo y nombre de la tienda*/
 
 .logo img{
     height: 50px;
     margin-right: 10px;
     margin-left: 10px;
+    padding-left: 20px;
 }
 
-#tienda{
-    padding-right: 20px;
-    font-family: sans-serif;
-}
+
 /*Decorando el menu*/
 .menu{
     display: flex;
     align-items: center;
-    max-width: 120px;
+    max-width: 70px;
     margin: auto;
 }
 
@@ -52,7 +55,8 @@ nav{
 
 nav > ul{
     height: 100%;
-    display: flex;
+    width: max-content;
+    display: inline-flex; 
 }
 
 nav ul li{
@@ -134,4 +138,86 @@ nav ul li ul li a:hover{
     padding-left: 30px;
     font-size: 14px;
     box-shadow: 0px 0px 10px 0px;
+}
+#quienes_somos{
+    background-color:#f2c166;
+    padding: 3%;
+    text-align: center;
+    color: #FFFFFF;
+}
+#somos{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #BF4904;
+    padding: 10px;
+    font-size: 20px;
+}
+#publico{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3%;
+    background-color: #f2c166;
+}
+#vera{
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #BF4904;
+    padding: 10px;
+    font-size: 20px;
+}
+#contacto{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3%;
+    background-color: #f2c166;
+}
+#contac{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    background-color: #BF4904;
+    font-size: 20px;
+}
+#datos{
+    background-color: #f2c166;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8%;
+    font-size: 20px;
+
+}
+#d{
+    background-color: #f2c166;
+    padding: 0%; 
+    background-color: #BF4904;
+}
+
+.quienes_somos, .publico,.contacto{
+    text-align: center;
+    font-size: 25px;
+}
+.infoo, h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+footer{
+    text-align: left;
+    padding-left: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    background-color: #BF4904;
+    color: white;
+}
+
+footer ul, footer li{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding-inline: 100px;
+    text-align: center;
 }
