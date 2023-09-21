@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.img1_{
+
+    width: 50%;
+    height: 40px;
+    margin-bottom: 10%;
+    text-align: center;
+
+}
+
+.img2_{
+    width: 40%;
+    height: 350px;
+    border: 2px double red;
+
+}
+
+img{
+    width: 90%;
+    height: auto;
+    image-rendering:pixelated;
+}

@@ -1,0 +1,67 @@
+/*paleta de colores
+#042940 #005C53 #9FC131 #DBF227 #D6D58E*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*1. por etiqueta*/
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    background-color: #DBF227;
+}
+/*2. por clases*/
+.subtitulo{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 900;
+     color: #9FC131;
+}
+/*por id*/
+#info{
+    border-radius: 4px;
+    background-color:#005C53 ;
+    font-weight: 900;
+    color: #D6D58E;
+    font-size: 24px;
+    padding: 4px;
+}
+/*selector por atributo*/
+[class]{
+    background-color: aliceblue !important;
+}
+a[href]{
+    
+    text-align: right;
+    margin-left: 8%;
+    color: aliceblue;
+    font-size: 26px;
+
+}
+/*utilizando sufijo*/
+a[href$=".com"]{
+   font-size: 34px;
+   color: violet;
+}
+/*prefijo*/
+article[id*="art"]{
+    margin-top: 20px;
+    width: 60%;
+
+}
+/*elementos hermanos*/
+.subtitulo + article{
+    padding: 30px;
+}
+/*desendencia*/
+.main .subtitulo{
+    background-color: yellow;
+}
+/*seleccion multiple*/
+.parrafo.aside{
+    display: inline-block;
+    font-size: 10px;
+}
+article > p{
+    font-size: 30px;
+}

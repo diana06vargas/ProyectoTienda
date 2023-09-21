@@ -1,0 +1,16 @@
+*{
+
+padding: 0;
+margin: 0;
+}
+#parrafo1{
+    background-color: violet;
+}
+.parrafo_principal{
+    background-color: brown;
+}
+
+body{
+    margin: 20px;
+    padding: 10px,20px;
+}

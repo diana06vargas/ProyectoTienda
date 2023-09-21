@@ -1,0 +1,54 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;/*acomoda el tamaño de la caja según su tamaño*/
+}
+/*
+Selectores principales:
+1. Por etiqueta <h1> <main>
+*/
+h1{
+    background-color: brown;
+    text-align: center;
+    padding: 2%;
+    color: aliceblue;
+}
+/*id por numeral*/
+main{
+    width: 100%;
+    padding-bottom: 3%;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+#seccion1{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 18px;
+    background-color: burlywood;
+    color: chocolate;
+}
+/*
+3.Seleccion por class .
+*/
+.seccion2{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    background-color: deepskyblue;
+    margin-bottom: 2%;
+    padding: 5%;
+}
+/*
+4.Seleccion por agrupación
+*/
+.div1, .div2, .div3{
+    width: 33%;
+    display: inline-block;
+    background-color: cadetblue;
+    border: 1px solid black;
+    padding: 2%;
+}
